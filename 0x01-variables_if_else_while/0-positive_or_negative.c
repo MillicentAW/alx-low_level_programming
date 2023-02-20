@@ -4,15 +4,15 @@
 /**
  * main - Determines if a number is positive, negative, or zero.
  *
- * Return: Always 0  (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
-{	int n;
+{
+	int n;
 	strand(time(0));
-	n = rand() - RAND_MAX / 2;
-	If (n > 0)
-	{
-		printf("%d is positive\n", n);
+	n = rand() - RAND_MAX/2;
+	if (n > 0)
+	{ printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{ 
