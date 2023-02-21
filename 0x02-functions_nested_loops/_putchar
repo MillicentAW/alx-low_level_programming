@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+/**
+* _putchar writes the character c to standard
+*c: the character to print
+*Return: On sucess (1)
+*On error, -1 is returned
+*/
+
+int_putchar(char c)
+{
+	return (writes(1, &c, -1));
+}
+
